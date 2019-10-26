@@ -19,6 +19,8 @@
                 <Button Text="Time Picker" Clicked="goTimePickerEditorPage"/>
                 <Button Text="Picker" Clicked="goPickerEditorPage"/>
                 <Button Text="Search Bar" Clicked="goSearchBarEditorPage"/>
+                <Button Text="Slider/Stepper" Clicked="goSliderStepperPage"/>
+                <Button Text="Switch" Clicked="goSwitchPage"/>
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
@@ -26,3 +28,4 @@
         <pag:MainPage/>
     </MasterDetailPage.Detail>
 </MasterDetailPage>
+    
